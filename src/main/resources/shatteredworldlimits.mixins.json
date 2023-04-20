@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.sk.shatteredworldlimits.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "shatteredworldlimits.refmap.json",
+  "mixins": [
+    "NoiseBasedChunkGeneratorMixin"
+  ],
+  "minVersion": "0.8.5",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

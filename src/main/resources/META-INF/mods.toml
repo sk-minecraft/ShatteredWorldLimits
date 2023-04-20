@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+[[mods]]
+modId="shatteredworldlimits"
+version="0.1.9b-1024apirl-forge-1.19"
+displayName="Shattered World Limits Mod"
+logoFile="examplemod.png"
+credits="Thanks for this example mod goes to Java"
+authors="__SK__"
+description='''
+Thank you for downloading and installing Shattered World Limits
+World height is 1024, but you can choose from -64, -128, -256, or -512 depth.
+For worlds with Y-128 depth, the deepslate will start at aprox. -64 ...
+For worlds with Y-256 depth, the deepslate will start at aprox. -128...
+For worlds with Y-512 depth, the deepslate will start at aprox. -256.
+Also, lava caves have been configure properly for all custom depth level.
+This mod's update also includes new geodes, the deeper you go ... the better they get.
+If you would like extreme depths and heights, sky islands and more, support my patreon.
+Your support = awesomeness.'''
+[[dependencies.shatteredworldlimits]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.shatteredworldlimits]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"

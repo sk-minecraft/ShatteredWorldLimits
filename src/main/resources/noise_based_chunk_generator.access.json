@@ -1,0 +1,6 @@
+{
+  "target": "net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator",
+  "public": [
+    "globalFluidPicker"
+  ]
+}
